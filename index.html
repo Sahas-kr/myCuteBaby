@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <!-- Font Awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Cute Baby</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="brand-title">
+            <button class="participate">Participate</button>
+            <button class="login-btn">Login</button>
+        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Results</a></li>
+                <li><a href="#">Gift Hampers</a></li>
+                <li><a href="#">Prize Details</a></li>
+                <li><a href="#">Announcements</a></li>
+                <li><a href="#">Entries</a></li>
+                <li><a href="#">Rules</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Form -->
+    <form>
+    <div class="form_bg">
+        <div class="form_main">
+            <div class="container">
+                <div class="heading">
+                    <h2><i class="fa-solid fa-house fa-sm"
+                            style="padding: 0 5px; color: rgb(71, 71, 219);"></i>MyCuteBaby Photo Contest</h2>
+                    <h3 class="horizontal">2023</h3>
+                </div>
+                <div class="reg-form">
+                    <div>
+                        <h5>Fill The form below & submit entry to Participate.</h5>
+                    </div>
+                    <div class="entry-area">
+                        <input type="text" id="babyName" required>
+                        <label for="babyName" class="labelline">Enter name of Baby</label>
+                    </div>
+                    <div class="entry-area">
+                        <input type="number" id="mobileNo" required>
+                        <label for="mobileNo" class="labelline">Enter your Mobile No.</label>
+                    </div>
+                    <div class="entry-area">
+                        <input type="email" id="emailId" required>
+                        <label for="emailId" class="labelline">Enter your Email ID</label>
+                    </div>
+                    <div class="file-upload">
+                        <input type="file" id="file" accept="image/*">
+                        <label for="file"><i class="fa-brands fa-dropbox fa-2xl"></i> &nbsp;Set a Photo...</label>
+                    </div>
+                    <div class="img-area">
+                        <h3>Select an image by clicking the 'Set a Photo' button above to set the profile picture for
+                            your baby's entry. <br> Image size must be less than <b>5mb.</b></h3>
+                    </div>
+                    <div class="errorMsg">
+                       <p> Error message  </p>
+                    </div>
+                </div>
+                    <button type="submit" id="submitBtn"><i class="fa-solid fa-paper-plane fa-xl"></i> &nbsp; Submit Entry </button>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
